@@ -12,7 +12,7 @@ class DFS:
         self.dpth: map = {}
         self.parent_dir: map = {} 
         self.parent_state: map = {} 
-        self.visited: map = {}
+        self.visited: set = set ()
 
     def solve(self, matrix: List[List[int]]) -> List[int]:
         print("Kero was here")
